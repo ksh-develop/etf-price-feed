@@ -2,7 +2,7 @@
 import csv, io, json, os, datetime as dt
 import requests
 
-TICKERS = ["SPY", "VOO", "SPYM", "QQQM", "SSO", "QLD", "UPRO", "SPXL", "TQQQ"]
+TICKERS = ["SPY", "VOO", "SPYM", "SSO", "UPRO", "SPXL", "QQQ", "QQQM", "QLD", "TQQQ"]
 DATA = "data"; DAILY = os.path.join(DATA, "daily")
 os.makedirs(DAILY, exist_ok=True)
 UA = {"User-Agent": "etf-price-feed/1.0"}

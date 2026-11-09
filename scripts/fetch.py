@@ -74,6 +74,21 @@ for t in TICKERS:
     last = rows[max(rows)] if rows else None
     if last: latest[t] = {k: (float(v) if k in ("open", "high", "low", "close") else v) for k, v in last.items()}
 
+# 원/달러 일별 환율(야후 KRW=X 종가) 히스토리
+try:
+    import yfinance as yf
+    fp = os.path.join(DATA, "fx_usdkrw.csv"); old = {}
+    if os.path.exists(fp):
+        with open(fp) as f: old = {r["date"]: r["close"] for r in csv.DictReader(f)}
+    df = yf.Ticker("KRW=X").history(period="max" if len(old) < 100 else "1mo", interval="1d")
+    for idx, r in df.iterrows():
+        if r.Close == r.Close: old[idx.strftime("%Y-%m-%d")] = f"{float(r.Close):.2f}"
+    with open(fp, "w", newline="") as f:
+        w = csv.writer(f); w.writerow(["date", "close"])
+        for d in sorted(old): w.writerow([d, old[d]])
+except Exception as e:
+    errors.append(f"fx history: {e}"); print("fx history fail", e)
+
 dates = [v["date"] for v in latest.values()]
 out = {
     "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),

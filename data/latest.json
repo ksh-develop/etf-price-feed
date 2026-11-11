@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:14:56Z",
+ "generated_at": "2026-11-11T22:36:52Z",
  "as_of": "2026-11-11",
  "complete": true,
  "prices": {
@@ -63,7 +63,7 @@
    "high": 695.57,
    "low": 683.6,
    "close": 690.38,
-   "volume": 42505260,
+   "volume": 42821615,
    "source": "yahoo"
   },
   "QQQM": {
@@ -72,7 +72,7 @@
    "high": 286.4,
    "low": 281.49,
    "close": 284.23,
-   "volume": 3028786,
+   "volume": 3036671,
    "source": "yahoo"
   },
   "QLD": {
@@ -90,12 +90,12 @@
    "high": 61.77,
    "low": 58.75,
    "close": 60.44,
-   "volume": 64075030,
+   "volume": 64450824,
    "source": "yahoo"
   }
  },
  "usdkrw": {
-  "rate": 1338.09,
+  "rate": 1336.45,
   "date": "2026-11-11",
   "source": "yahoo"
  },

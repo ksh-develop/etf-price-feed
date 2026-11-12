@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T21:55:45Z",
+ "generated_at": "2026-11-12T22:27:32Z",
  "as_of": "2026-11-12",
  "complete": true,
  "prices": {
@@ -9,7 +9,7 @@
    "high": 763.03,
    "low": 753.7,
    "close": 757.12,
-   "volume": 34104483,
+   "volume": 37043281,
    "source": "yahoo"
   },
   "VOO": {
@@ -18,7 +18,7 @@
    "high": 701.42,
    "low": 692.84,
    "close": 696.0,
-   "volume": 6124638,
+   "volume": 6150398,
    "source": "yahoo"
   },
   "SPYM": {
@@ -27,7 +27,7 @@
    "high": 89.8095,
    "low": 88.725,
    "close": 89.13,
-   "volume": 10138323,
+   "volume": 10143036,
    "source": "yahoo"
   },
   "SSO": {
@@ -36,7 +36,7 @@
    "high": 68.6647,
    "low": 66.99,
    "close": 67.61,
-   "volume": 3601589,
+   "volume": 3613709,
    "source": "yahoo"
   },
   "UPRO": {
@@ -45,7 +45,7 @@
    "high": 143.51,
    "low": 138.3329,
    "close": 140.23,
-   "volume": 2507237,
+   "volume": 2524539,
    "source": "yahoo"
   },
   "SPXL": {
@@ -54,7 +54,7 @@
    "high": 274.67,
    "low": 264.81,
    "close": 268.38,
-   "volume": 1407564,
+   "volume": 1415653,
    "source": "yahoo"
   },
   "QQQ": {
@@ -63,7 +63,7 @@
    "high": 694.5599,
    "low": 679.84,
    "close": 688.17,
-   "volume": 35168298,
+   "volume": 36073858,
    "source": "yahoo"
   },
   "QQQM": {
@@ -72,7 +72,7 @@
    "high": 285.99,
    "low": 279.9538,
    "close": 283.39,
-   "volume": 3673133,
+   "volume": 3701181,
    "source": "yahoo"
   },
   "QLD": {
@@ -81,7 +81,7 @@
    "high": 82.81,
    "low": 79.33,
    "close": 81.3,
-   "volume": 4658861,
+   "volume": 4687723,
    "source": "yahoo"
   },
   "TQQQ": {
@@ -90,12 +90,12 @@
    "high": 61.5499,
    "low": 57.685,
    "close": 59.88,
-   "volume": 64483709,
+   "volume": 65102220,
    "source": "yahoo"
   }
  },
  "usdkrw": {
-  "rate": 1335.24,
+  "rate": 1334.7,
   "date": "2026-11-12",
   "source": "yahoo"
  },

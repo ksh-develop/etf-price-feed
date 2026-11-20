@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T03:40:47Z",
+ "generated_at": "2026-11-20T03:49:24Z",
  "as_of": "2026-11-18",
  "complete": false,
  "prices": {
@@ -95,9 +95,11 @@
   }
  },
  "usdkrw": {
-  "rate": 1337.68,
+  "rate": 1337.48,
   "date": "2026-11-20",
   "source": "yahoo"
  },
- "errors": []
+ "errors": [
+  "QQQM stooq 보충 실패: stooq: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name="
+ ]
 }

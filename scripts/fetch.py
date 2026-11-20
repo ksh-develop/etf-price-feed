@@ -89,6 +89,19 @@ try:
 except Exception as e:
     errors.append(f"fx history: {e}"); print("fx history fail", e)
 
+# 야후에서 일부 종목만 최신 거래일이 빠진 경우 Stooq로 보충
+mx = max((v["date"] for v in latest.values()), default=None)
+for t in TICKERS:
+    if mx and t in latest and latest[t]["date"] < mx:
+        try:
+            rows = load(t); add = {d: r for d, r in from_stooq(t).items() if d > latest[t]["date"]}
+            if add:
+                rows.update(add); save(t, rows); last = rows[max(rows)]
+                latest[t] = {k: (float(v) if k in ("open", "high", "low", "close") else v) for k, v in last.items()}
+                print(t, "stooq로 보충", sorted(add))
+        except Exception as e:
+            errors.append(f"{t} stooq 보충 실패: {e}")
+
 dates = [v["date"] for v in latest.values()]
 out = {
     "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),

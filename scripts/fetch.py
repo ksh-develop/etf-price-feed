@@ -114,3 +114,10 @@ out = {
 }
 with open(os.path.join(DATA, "latest.json"), "w") as f: json.dump(out, f, ensure_ascii=False, indent=1)
 print(json.dumps(out, ensure_ascii=False, indent=1))
+
+# 기간별(1·3·5·10년) 평균 환율 -> data/fx_stats.json
+try:
+    import subprocess, sys
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "fx_stats.py")], check=True)
+except Exception as e:
+    print("fx_stats 실패", e)

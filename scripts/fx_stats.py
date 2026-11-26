@@ -51,7 +51,7 @@ def main():
     for d, v in rows:
         if d > start10:
             acc.setdefault(d.strftime("%Y-%m"), []).append(v)
-    monthly = [[m, round(sum(vs) / len(vs), 2)] for m, vs in sorted(acc.items())]
+    monthly = [{"month": m, "avg": round(sum(vs) / len(vs), 2)} for m, vs in sorted(acc.items())]
 
     out = {
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

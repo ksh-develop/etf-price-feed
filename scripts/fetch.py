@@ -2,7 +2,8 @@
 import csv, io, json, os, datetime as dt
 import requests
 
-TICKERS = ["SPY", "VOO", "SPYM", "SSO", "UPRO", "SPXL", "QQQ", "QQQM", "QLD", "TQQQ"]
+TICKERS = ["SPY", "VOO", "SPYM", "SSO", "UPRO", "SPXL", "QQQ", "QQQM", "QLD", "TQQQ",
+           "KORU", "SOXL", "ANT"]   # 아래 3개는 실제 보유 종목(대시보드 현재가용)
 DATA = "data"; DAILY = os.path.join(DATA, "daily")
 os.makedirs(DAILY, exist_ok=True)
 UA = {"User-Agent": "etf-price-feed/1.0"}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:39:00Z",
+ "generated_at": "2026-11-27T03:48:05Z",
  "as_of": "2026-11-25",
  "complete": true,
  "prices": {
@@ -122,7 +122,7 @@
   }
  },
  "usdkrw": {
-  "rate": 1339.47,
+  "rate": 1341.38,
   "date": "2026-11-27",
   "source": "yahoo"
  },

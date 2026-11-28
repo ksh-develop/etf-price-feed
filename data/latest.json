@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T00:26:37Z",
+ "generated_at": "2026-11-28T03:19:17Z",
  "as_of": "2026-11-27",
  "complete": true,
  "prices": {
@@ -7,36 +7,36 @@
    "date": "2026-11-27",
    "open": 725.86,
    "high": 729.15,
-   "low": 719.62,
+   "low": 719.61,
    "close": 728.32,
-   "volume": 40442229,
+   "volume": 40442200,
    "source": "yahoo"
   },
   "VOO": {
    "date": "2026-11-27",
    "open": 667.3,
-   "high": 670.24,
+   "high": 670.25,
    "low": 661.53,
    "close": 669.79,
-   "volume": 5002414,
+   "volume": 5002400,
    "source": "yahoo"
   },
   "SPYM": {
    "date": "2026-11-27",
-   "open": 85.445,
+   "open": 85.45,
    "high": 85.82,
    "low": 84.7,
    "close": 85.75,
-   "volume": 6951350,
+   "volume": 6951400,
    "source": "yahoo"
   },
   "SSO": {
    "date": "2026-11-27",
    "open": 61.67,
    "high": 62.22,
-   "low": 60.65,
+   "low": 60.63,
    "close": 62.15,
-   "volume": 2935859,
+   "volume": 2935900,
    "source": "yahoo"
   },
   "UPRO": {
@@ -45,52 +45,52 @@
    "high": 122.74,
    "low": 118.19,
    "close": 122.57,
-   "volume": 1667941,
+   "volume": 1667900,
    "source": "yahoo"
   },
   "SPXL": {
    "date": "2026-11-27",
    "open": 232.03,
-   "high": 234.97,
+   "high": 235.0,
    "low": 226.14,
    "close": 234.77,
-   "volume": 1603671,
+   "volume": 1603700,
    "source": "yahoo"
   },
   "QQQ": {
    "date": "2026-11-27",
-   "open": 645.722,
+   "open": 645.72,
    "high": 651.34,
    "low": 636.72,
    "close": 650.99,
-   "volume": 35503690,
+   "volume": 35503700,
    "source": "yahoo"
   },
   "QQQM": {
    "date": "2026-11-27",
-   "open": 265.87,
+   "open": 265.909,
    "high": 268.2,
    "low": 262.22,
    "close": 268.05,
-   "volume": 3614001,
+   "volume": 3614000,
    "source": "yahoo"
   },
   "QLD": {
    "date": "2026-11-27",
-   "open": 70.668,
-   "high": 71.83,
+   "open": 70.67,
+   "high": 71.86,
    "low": 68.74,
    "close": 71.75,
-   "volume": 5851866,
+   "volume": 5851900,
    "source": "yahoo"
   },
   "TQQQ": {
    "date": "2026-11-27",
-   "open": 47.735,
+   "open": 47.74,
    "high": 48.93,
    "low": 45.81,
    "close": 48.85,
-   "volume": 74948140,
+   "volume": 74948100,
    "source": "yahoo"
   },
   "KORU": {
@@ -99,7 +99,7 @@
    "high": 6.12,
    "low": 5.65,
    "close": 6.01,
-   "volume": 29282823,
+   "volume": 29282800,
    "source": "yahoo"
   },
   "SOXL": {
@@ -108,16 +108,16 @@
    "high": 36.95,
    "low": 32.02,
    "close": 36.57,
-   "volume": 290577906,
+   "volume": 290577900,
    "source": "yahoo"
   },
   "ANT": {
    "date": "2026-11-27",
    "open": 84.99,
-   "high": 93.22,
-   "low": 84.53,
+   "high": 93.39,
+   "low": 84.51,
    "close": 91.88,
-   "volume": 143747654,
+   "volume": 143747700,
    "source": "yahoo"
   }
  },
